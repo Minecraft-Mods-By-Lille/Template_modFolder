@@ -1,4 +1,4 @@
-# Farming Simulator 19 Mod Template
+# Minecraft Mod Template
 
 This repository is a template for creating Farming Simulator 19 mods. It includes the necessary files and structure for developing FS19 mods.
 
