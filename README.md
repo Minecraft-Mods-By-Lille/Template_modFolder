@@ -32,13 +32,14 @@ This template includes an example mod (EDGE Sign - Small Grain Silo) to demonstr
 ## Repository Structure
 
 ```
-Template_modFolder/
-├── data/              # Mod data files and configurations
-├── modDesc/           # Localization files
-├── store/             # Brand logos and store assets
-├── modDesc.xml        # Main mod descriptor file
-├── EdgeSign_Icon.dds  # Mod icon
-└── .gitignore         # Git ignore rules
+your-mod-name/          # Use this template structure for your mod
+├── data/               # Mod data files and configurations
+├── modDesc/            # Localization files
+├── store/              # Brand logos and store assets
+├── modDesc.xml         # Main mod descriptor file
+├── icon.dds            # Mod icon (rename as needed)
+├── README.md           # Your mod documentation
+└── .gitignore          # Git ignore rules
 ```
 
 ## Support & Feedback
