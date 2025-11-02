@@ -1,18 +1,22 @@
-# EDGE Sign - Farming Simulator 19 Mod Template
+# Farming Simulator 19 Mod Template
 
-This repository is a template for Farming Simulator 19 mods. It includes the necessary files and structure for creating FS19 mods.
+This repository is a template for creating Farming Simulator 19 mods. It includes the necessary files and structure for developing FS19 mods.
 
-## Features
+## Template Features
 
-- **Automatic Lighting**: All buildings have automatic lighting systems
+This template provides a foundation for building mods with the following features:
+
+- **Automatic Lighting**: Support for buildings with automatic lighting systems
 - **Seasons Support**: Full compatibility with the "Seasons" mod
 - **Courseplay Six Support**: Compatible with "Courseplay Six" mod
-- **Custom Fruits**: Buildings have FillTypeCategories: Farmsilo to support custom fruits
+- **Custom Fruits**: Buildings configured with FillTypeCategories: Farmsilo to support custom fruits
 - **MaizePlus Support**: Compatible with MaizePlus mod
 
-## Technical Specifications
+## Example Content
 
-### Small Grain Silo
+This template includes an example mod (EDGE Sign - Small Grain Silo) to demonstrate the structure:
+
+### Example: Small Grain Silo
 - **Price**: 110,000€
 - **Daily Upkeep**: 45€
 - **Size**: 14 x 15 Meters
