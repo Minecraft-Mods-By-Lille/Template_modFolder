@@ -1,6 +1,6 @@
 # Minecraft Mod Template
 
-This repository is a template for creating Farming Simulator 19 mods. It includes the necessary files and structure for developing FS19 mods.
+This repository is a template for creating Minecraft mods. It includes the necessary files and structure for developing FS19 mods.
 
 ## Template Features
 
@@ -26,26 +26,11 @@ This template includes an example mod (EDGE Sign - Small Grain Silo) to demonstr
 ## Installation
 
 1. Download the mod files
-2. Place the mod folder in your Farming Simulator 19 mods directory
-3. Launch the game and activate the mod in the mod selection menu
-
-## Repository Structure
-
-```
-your-mod-name/          # Use this template structure for your mod
-├── data/               # Mod data files and configurations
-├── modDesc/            # Localization files
-├── store/              # Brand logos and store assets
-├── modDesc.xml         # Main mod descriptor file
-├── icon.dds            # Mod icon (rename as needed)
-├── README.md           # Your mod documentation
-└── .gitignore          # Git ignore rules
-```
-
+2. Place the mod folder in your Minecraft mods directory
+3. Launch the game and activate the mod in the mod 
 ## Support & Feedback
 
 If you find any bugs or have suggestions for improvement, please:
-- Visit our GitHub page: [FS19-Mods-By-EDGE](https://github.com/FS19-Mods-By-EDGE/)
 - Contact EDGEPureGaming on Facebook
 
 ## Credits
@@ -72,7 +57,3 @@ Translations by: Castiga
 ## License
 
 This is a template repository for creating Farming Simulator 19 mods.
-
----
-
-*For more information about creating Farming Simulator mods, visit the [official Giants Developer Network](https://gdn.giants-software.com/).*
