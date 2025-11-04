@@ -1,6 +1,6 @@
 # Minecraft Mod Template by Lille – A brief description
 
-We ❤️ Contributors Like You! We're eager to work with the community to improve this mod (and maybe even craft some new ones!) Please check out our [Contributing Guide](CONTRIBUTING.md) for how to get started. If you're looking for more info on using the mod, see the [Wiki](../../wiki) of this repository.
+We ❤️ Contributors Like You! We're eager to work with the community to improve this mod (and maybe even craft some new ones!) Please check out our [Contributing Guide](CONTRIBUTING.md) for how to get started. If you're looking for more info on using the template, see the [Wiki](https://github.com/Minecraft-Mods-By-Lille/Template_modFolder/wiki) of this repository.
 
 Found a bug or have a suggestion? Feel free to open an issue using the appropriate template. Be sure to include details so we can recreate or understand it. Or, if you know how to fix it, you can fork the repo and submit a pull request – we welcome improvements.
 

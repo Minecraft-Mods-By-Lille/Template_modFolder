@@ -64,6 +64,4 @@ We'll review your pull request as soon as we can. Don't worry if we suggest chan
 
 ## Thank You for Contributing!
 
-If you have any questions or need clarification while contributing, don't hesitate to reach out. You can check our [Wiki](../../wiki) for more info, or contact us via email. We're here to help. Let's build something awesome together!
-
-(For any other issues or inquiries, you can also contact us at post@edgegaming.no and we'll be happy to help.)
+If you have any questions or need clarification while contributing, don't hesitate to reach out. You can check our [Wiki](https://github.com/Minecraft-Mods-By-Lille/Template_modFolder/wiki) for more info. We're here to help. Let's build something awesome together!
