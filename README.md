@@ -13,7 +13,7 @@ A complete, ready-to-use template for creating Minecraft 1.21.1 mods with NeoFor
 4. **Rename folders**: Change `yourmodid` to your actual mod ID
 5. **Build**: Run `./gradlew build`
 
-See [Setup Instructions](SETUP_INSTRUCTIONS.md) for detailed steps.
+See the [📖 Wiki](../../wiki) for detailed setup instructions and documentation.
 
 ## 📋 What's Included
 
@@ -57,9 +57,15 @@ See [Setup Instructions](SETUP_INSTRUCTIONS.md) for detailed steps.
 
 ## 📚 Documentation
 
-- [Setup Instructions](SETUP_INSTRUCTIONS.md) - Detailed setup guide
-- [Setup Checklist](CHECKLIST.md) - Step-by-step checklist
-- [File Structure](FILE_STRUCTURE.md) - Complete folder structure reference
+All detailed documentation is available in the [📖 Wiki](../../wiki):
+
+- [🚀 Setup Instructions](../../wiki/Setup-Instructions) - Detailed setup guide
+- [📋 Setup Checklist](../../wiki/Setup-Checklist) - Step-by-step checklist
+- [📁 File Structure](../../wiki/File-Structure) - Complete folder structure reference
+- [📝 Changelog](../../wiki/Changelog) - Version history and updates
+
+Additional files in this repository:
+- [TODO.md](TODO.md) - Template task list for your mod development
 
 ## ⚠️ Important: Replace .gitignore
 
@@ -99,18 +105,31 @@ Follows NeoForge community standards and recommended project structure.
 - [NeoForge Discord](https://discord.neoforged.net/)
 - [Minecraft Wiki](https://minecraft.wiki/)
 
-## 🤝 Support & Feedback
+## 🤝 Contributing & Support
 
-If you find any bugs or have suggestions for improvement, please:
+We ❤️ contributors! We're eager to work with the community to improve this template.
+
+**Found a bug or have a suggestion?**
 - Open an issue using our [Bug Report](.github/ISSUE_TEMPLATE/bug_report.md) template
 - Suggest features using our [Feature Request](.github/ISSUE_TEMPLATE/feature_request.md) template
-- Check our [Contributing Guide](.github/CONTRIBUTING.md) to help improve this template
+
+**Want to contribute?**
+- Check our [Contributing Guide](.github/CONTRIBUTING.md) for guidelines
+- Review our [Code of Conduct](.github/CODE_OF_CONDUCT.md)
+- See [Contributors](../../graphs/contributors) for everyone who has helped
+
+**Need help?**
+- Visit the [📖 Wiki](../../wiki) for complete documentation
+- Join the [NeoForge Discord](https://discord.neoforged.net/)
+- Check the [NeoForge Documentation](https://docs.neoforged.net/)
 
 ## 📝 License
 
 This template is provided under the MIT License. See [LICENSE](LICENSE) for details.
 
 Your mod can use any license you choose.
+
+All content made by the team is the property of **Edge Gaming**, but you are free to use it as you like provided you include proper credits to the original creators. By contributing to this project, you agree that any contributions we accept can be shown in the credits of the template (we'll make sure you get the recognition you deserve!).
 
 ## 🏆 Credits
 
@@ -128,8 +147,12 @@ See [Contributors](../../graphs/contributors) for everyone who has helped improv
 
 ## 🎮 Ready to Start Modding?
 
-1. Check out the [Setup Checklist](CHECKLIST.md)
-2. Follow the [Setup Instructions](SETUP_INSTRUCTIONS.md)
+1. Check out the [📋 Setup Checklist](../../wiki/Setup-Checklist)
+2. Follow the [🚀 Setup Instructions](../../wiki/Setup-Instructions)
 3. Start coding your mod!
 
 Happy modding! ✨
+
+*Thank you for using this template and we hope you create something amazing!*
+
+– **Lille** & The Edge Gaming Team
