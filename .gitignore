@@ -28,8 +28,22 @@ $RECYCLE.BIN/
 .directory
 
 # ============================================
-# Editor & IDE Files
+# Editor & IDE Files (User-Specific)
 # ============================================
+
+# VS Code - user-specific settings
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+.eclipse/
 
 # Backup files
 *.bak
