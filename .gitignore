@@ -52,6 +52,22 @@ $RECYCLE.BIN/
 *~
 
 # ============================================
+# Gradle Build Files (Machine-Specific)
+# ============================================
+
+# Gradle cache and build outputs - regenerated on each machine
+.gradle/
+build/
+out/
+bin/
+
+# Minecraft runtime directory (created when testing)
+run/
+
+# Generated resources (should be copied to src/main/resources when ready)
+src/generated/
+
+# ============================================
 # Test Folders
 # ============================================
 
