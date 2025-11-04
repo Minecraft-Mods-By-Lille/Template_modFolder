@@ -1,0 +1,89 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Client",
+      "presentation": {
+        "group": "Mod Development - yourmodid",
+        "order": 0
+      },
+      "projectName": "yourmodid-Template_modFolder",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\clientRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\clientRunVmArgs.txt",
+        "-Dfml.modFolders\u003dyourmodid%%C:\\Modding Work\\Minecraft\\Template_modFolder\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Data",
+      "presentation": {
+        "group": "Mod Development - yourmodid",
+        "order": 1
+      },
+      "projectName": "yourmodid-Template_modFolder",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\dataRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\dataRunVmArgs.txt",
+        "-Dfml.modFolders\u003dyourmodid%%C:\\Modding Work\\Minecraft\\Template_modFolder\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "GameTestServer",
+      "presentation": {
+        "group": "Mod Development - yourmodid",
+        "order": 2
+      },
+      "projectName": "yourmodid-Template_modFolder",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\gameTestServerRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\gameTestServerRunVmArgs.txt",
+        "-Dfml.modFolders\u003dyourmodid%%C:\\Modding Work\\Minecraft\\Template_modFolder\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    },
+    {
+      "type": "java",
+      "request": "launch",
+      "name": "Server",
+      "presentation": {
+        "group": "Mod Development - yourmodid",
+        "order": 3
+      },
+      "projectName": "yourmodid-Template_modFolder",
+      "mainClass": "net.neoforged.devlaunch.Main",
+      "args": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\serverRunProgramArgs.txt"
+      ],
+      "vmArgs": [
+        "@C:\\Modding Work\\Minecraft\\Template_modFolder\\build\\moddev\\serverRunVmArgs.txt",
+        "-Dfml.modFolders\u003dyourmodid%%C:\\Modding Work\\Minecraft\\Template_modFolder\\bin\\main"
+      ],
+      "cwd": "${workspaceFolder}\\run",
+      "console": "internalConsole",
+      "shortenCommandLine": "none"
+    }
+  ]
+}

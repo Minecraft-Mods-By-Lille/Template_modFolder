@@ -1,25 +1,47 @@
-#?.md version="1.0" encoding="utf-8" standalone="no"?
-#?author="Castiga"?
-#Exemple
-  #	<!-- Whole Folder -->
-  # *.shapes
-  #	<!-- Specific Folder -->
-  # *data/*.shapes
+# .gitignore for NeoForge Minecraft Mod Template
+# Author: Lille
+# Version: 1.0
+# 
+# This is a TEMPLATE - when you use it for a real mod project,
+# replace this file with .gitignore.example for full development ignoring
 
-# build files
+# NOTE: This template's .gitignore is minimal because all template files
+# need to be committed to the repository.
 
-# Prerequisites
+# ============================================
+# Operating System Files
+# ============================================
 
-# Compiled sources
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# build files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
 
-# Object files
+# Linux
+*~
+.directory
 
-# Precompiled Headers
+# ============================================
+# Editor & IDE Files
+# ============================================
 
-# Libraries
+# Backup files
+*.bak
+*.swp
+*.swo
+*~
 
-# Shared objects (inc. Windows DLLs)
+# ============================================
+# Test Folders
+# ============================================
 
-# Executables
+# Don't commit accidentally created test mods
+/test-mod/
+/example-mod/
+/testing/

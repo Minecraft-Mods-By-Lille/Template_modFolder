@@ -1,0 +1,90 @@
+plugins {
+    id 'net.neoforged.moddev' version '2.0.28-beta'
+}
+
+version = project.mod_version
+group = "net.${project.mod_id}"
+base.archivesName = project.mod_name
+
+java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+
+println "Java: ${System.getProperty 'java.version'}, JVM: ${System.getProperty 'java.vm.version'} (${System.getProperty 'java.vendor'}), Arch: ${System.getProperty 'os.arch'}"
+
+neoForge {
+    version = project.neoforge_version
+    
+    parchment {
+        minecraftVersion = project.minecraft_version
+        mappingsVersion = project.getProperty('neogradle.subsystems.parchment.mappingsVersion')
+    }
+
+    runs {
+        client {
+            client()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        
+        server {
+            server()
+            programArgument '--nogui'
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        
+        gameTestServer {
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        
+        data {
+            data()
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
+        }
+    }
+
+    mods {
+        "${project.mod_id}" {
+            sourceSet sourceSets.main
+        }
+    }
+}
+
+repositories {
+    mavenLocal()
+}
+
+dependencies {
+    // Development dependencies
+    compileOnly "org.jetbrains:annotations:24.0.1"
+    
+    // Testing
+    testImplementation "org.junit.jupiter:junit-jupiter:5.10.0"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+
+// Setup tests
+tasks.named('test', Test) {
+    maxHeapSize = "1G"
+    useJUnitPlatform()
+}
+
+processResources {
+    var replaceProperties = [
+        minecraft_version      : project.minecraft_version,
+        minecraft_version_range: project.minecraft_version_range,
+        neoforge_version       : project.neoforge_version,
+        neoforge_version_range : project.neoforge_version_range,
+        loader_version_range   : project.loader_version_range,
+        mod_id                 : project.mod_id,
+        mod_name               : project.mod_name,
+        mod_license            : project.mod_license,
+        mod_version            : project.mod_version,
+        mod_authors            : project.mod_authors,
+        mod_description        : project.mod_description,
+        mod_credits            : project.mod_credits,
+    ]
+    
+    inputs.properties replaceProperties
+    
+    filesMatching(['META-INF/neoforge.mods.toml']) {
+        expand replaceProperties
+    }
+}

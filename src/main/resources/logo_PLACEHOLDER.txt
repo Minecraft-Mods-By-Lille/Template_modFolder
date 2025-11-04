@@ -1,0 +1,5 @@
+# PLACEHOLDER - Mod Icon
+# Create a 128x128 pixel icon for the mod
+# Should represent the "Stockpile" theme - maybe crossed weapons or an armory
+# File format: .png
+# Location: src/main/resources/logo.png

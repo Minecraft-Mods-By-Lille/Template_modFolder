@@ -1,0 +1,70 @@
+# .gitignore for NeoForge Minecraft Mod Development
+# 
+# IMPORTANT: When you create a new mod from the template, REPLACE .gitignore 
+# with this file to properly exclude build artifacts and development files.
+#
+# To use: Copy this file over .gitignore when setting up your mod
+
+# Gradle
+.gradle/
+build/
+out/
+bin/
+
+# Eclipse
+.classpath
+.project
+.settings/
+.eclipse/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code (keep launch.json but ignore other configs)
+.vscode/
+!.vscode/launch.json
+
+# Minecraft run directory
+run/
+
+# Generated resources (copy to src/main/resources when ready)
+src/generated/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Don't ignore gradle wrapper jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# Your development notes (optional - remove these lines if you want to commit them)
+NOTES.md
+PRIVATE_TODO.md
