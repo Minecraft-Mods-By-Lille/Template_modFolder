@@ -129,12 +129,12 @@ This template is provided under the MIT License. See [LICENSE](LICENSE) for deta
 
 Your mod can use any license you choose.
 
-All content made by the team is the property of **Edge Gaming**, but you are free to use it as you like provided you include proper credits to the original creators. By contributing to this project, you agree that any contributions we accept can be shown in the credits of the template (we'll make sure you get the recognition you deserve!).
+All content is created by **Lille**, and you are free to use it as you like provided you include proper credits to the original creator. By contributing to this project, you agree that any contributions we accept can be shown in the credits of the template (we'll make sure you get the recognition you deserve!).
 
 ## 🏆 Credits
 
 ### Template Author
-**Lille** - Edge Gaming
+**Lille**
 
 ### Contributors
 See [Contributors](../../graphs/contributors) for everyone who has helped improve this template.
@@ -155,4 +155,4 @@ Happy modding! ✨
 
 *Thank you for using this template and we hope you create something amazing!*
 
-– **Lille** & The Edge Gaming Team
+– **Lille**
