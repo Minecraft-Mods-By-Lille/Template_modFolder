@@ -3,7 +3,9 @@
 # IMPORTANT: When you create a new mod from the template, REPLACE .gitignore 
 # with this file to properly exclude build artifacts and development files.
 #
-# To use: Copy this file over .gitignore when setting up your mod
+# To use this file:
+#   PowerShell: Remove-Item .gitignore; Rename-Item .gitignore.example .gitignore
+#   Bash/Linux: rm .gitignore && mv .gitignore.example .gitignore
 
 # Gradle
 .gradle/

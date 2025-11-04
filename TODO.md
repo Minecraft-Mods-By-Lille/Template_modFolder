@@ -1,5 +1,8 @@
 # Your Mod Name - TODO List
 
+> **📝 Note**: This is a template task list for your mod development. Customize it for your specific mod!
+> Replace "Your Mod Name" above with your actual mod name and add/remove tasks as needed.
+
 ## 🎯 Project Setup
 - [ ] Update all mod properties in gradle.properties
 - [ ] Rename all `yourmodid` folders to match your mod_id
