@@ -1,4 +1,4 @@
-# Minecraft Mod Template by Lille – A brief description of the mod and its main features.
+# Minecraft Mod Template by Lille – A brief description
 
 We ❤️ Contributors Like You! We're eager to work with the community to improve this mod (and maybe even craft some new ones!) Please check out our [Contributing Guide](CONTRIBUTING.md) for how to get started. If you're looking for more info on using the mod, see the [Wiki](../../wiki) of this repository.
 
